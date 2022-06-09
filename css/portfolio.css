@@ -1,0 +1,339 @@
+
+body {
+    background:#151515;
+    -webkit-font-smoothing:auto;
+ 
+    -moz-osx-font-smoothing: auto;
+
+}
+
+
+
+.wrapper {
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+margin:0 auto;
+}
+
+
+.sub-wrapper {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+.float {
+    background:#fff;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    text-align:center;
+    display:none;
+}
+
+.hero {
+    font-family: 'raleway', sans-serif; 
+    width:80%;
+    margin:0 auto;
+    color:#fff;
+    opacity:.4;
+}
+
+
+.footer {
+    font-family: 'Oxygen', sans-serif;
+    width:80%;
+    font-weight:300;
+    margin:100px auto;
+    color:#bababa;
+    height:75px;
+    opacity:.13;
+}
+
+.footer .sig {
+        margin:40px 10px 5px 15px;
+}
+
+.hero h1 {    
+    font-family: 'Quicksand', sans-serif;
+    font-weight:300;
+    font-size:52px;
+    font-weight:normal;
+    margin:10px;
+    text-align:center;
+}
+
+
+.hero {
+    padding:50px 0px 50px 0px;
+}
+
+
+a.card {
+ /*   border-radius:30px; */
+    
+    border-radius:12px;
+    background:#212121;
+    flex-direction:column;
+    margin:10px;
+    padding:25px;
+    width:25%;
+    min-height:450px;
+    outline:none;
+ /* background:url("../images/foxtrot-dashboard.png"); */
+    background-size:cover;
+    flex:1 1 250px;
+    justify-content:space-between;
+    position:relative;
+}
+
+
+a.card { 
+    text-decoration:none;
+    color:#ddd;
+ /*   font-family: 'Montserrat', sans-serif; */
+            font-family: 'raleway', sans-serif;
+        font-family: 'quicksand', sans-serif;
+    font-weight:100;
+
+    letter-spacing:.15em;
+    
+}
+
+
+
+
+
+.card h2 {
+     text-transform:uppercase;   
+    font-size:24px;
+    margin:0px !important;
+    padding:0px !important;
+    font-weight:normal;
+}
+
+.card .subtitle {
+    font-size:14px;
+}
+
+
+ .overlay {
+ width:100%;
+    height:100%;
+    position:absolute !important;
+    z-index:5;
+    top:0px;
+    left:0px;
+    border-radius:12px;
+    margin:0;
+    padding:0;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(125,185,232,0) 0%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+
+
+
+}
+
+
+/*     margin-top:50%;margin-left:auto;margin-right:auto;display:block;opacity:.2;min-height:100px;width:30%;
+    */
+
+
+
+
+
+.icon2, .icon3  {
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:100px;
+    width:100px;
+    margin-top:-50px;
+    margin-left:-50px;
+    opacity:0.15;
+}
+
+
+      .icon1  {
+    display:block;
+   position:absolute;
+    top:50%;
+    left:50%;
+    height:180px;
+    width:auto;
+    margin-top:-80px;
+    margin-left:-90px;
+    opacity:0.15;
+} 
+
+
+
+@media only screen and (max-width:40em) {
+  a.card {
+      min-height:250px;
+    }
+    
+   .icon2, .icon3  {
+   position:absolute;
+    top:50%;
+    left:50%;
+    height:100px;
+    width:100px;
+    margin-top:-50px;
+    margin-left:-50px;
+    opacity:0.15;
+}
+    
+    
+      .icon1  {
+    display:block;
+   position:absolute;
+    top:50%;
+    left:50%;
+    height:150px;
+    width:auto;
+    margin-top:-50px;
+    margin-left:-80px;
+    opacity:0.15;
+} 
+    
+}
+
+
+@media only screen and (max-width:80em) {
+  a.card {
+      min-width:80%;
+    }
+    
+    .icon2, .icon3 {
+   position:absolute;
+    display:block;
+    top:50%;
+    left:50%;
+    height:auto;
+    width:80px;
+    margin-top:-15px;
+    margin-left:-40px;
+    opacity:0.15;
+}
+    
+    
+         .icon1  {
+          display:block;
+   position:absolute;
+    top:50%;
+    left:50%;
+    height:150px;
+    width:auto;
+    margin-top:-50px;
+    margin-left:-80px;
+    opacity:0.15;
+}
+    
+    
+    
+     .hero h1 {
+        font-size:32px !important;
+    }
+    
+}
+
+
+
+.tag {
+    border-radius:30px;
+    background:#fff;
+    padding:5px 10px 5px 10px;
+    color:#000;
+    height:10px;
+    font-size:12px;
+    font-family:'Montserrat', sans-serif;
+    margin:0px 3px 0px 3px;
+}
+
+.description {
+    font-size:.95em;
+padding-top:10px;
+    line-height:1em;
+    letter-spacing:normal;
+    opacity:0.80;
+}
+/* anim */
+
+.anim {
+     transition:all .5s ease-in-out;
+}
+
+
+.anim:hover {
+ /*   transition:all .5s ease-in-out;
+    transform:scale(1.01); */
+ /*   box-shadow:0px 0px 15px rgba(0,0,0,.75); */
+background:#282828;
+transition:all .5s ease-in-out;
+}
+
+
+.anim:active {
+    transform:scale(1);
+}
+
+
+
+.sub-wrapper {
+    color:#fff;
+    font-family: 'quicksand', sans-serif;
+    opacity:0.7;
+}
+
+
+.content {
+width:80%;
+margin:0 auto;
+padding:25px;
+}
+
+
+.sidebar {
+    width:30%;
+    float:right;
+    margin-left:30px;
+    padding-top:25px;
+}
+
+
+section {
+background:#fff;
+    color:#000;
+    width:100%;
+}
+
+
+.clear {
+    clear:both;
+}
+
+
+/*
+#color1 {
+    border:2px solid #ff9cb8;
+}
+
+#color2 {
+    border:2px solid #9CFFFD;
+}
+
+#color3 {
+    border:2px solid #FFF49C;
+}
+*/
+
