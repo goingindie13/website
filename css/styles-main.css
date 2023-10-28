@@ -32,7 +32,7 @@ h2 {
     color: #21242B;
 text-align: center;
 font-family: Sora;
-font-size: 24px;
+font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -193,23 +193,20 @@ overflow:hidden;
 
 /* logo marquee */
 .logos {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    overflow: hidden;
-    white-space: nowrap;
     width: 100%;
     position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     display: inline-block;
     padding: 20px;
-    margin-right: 75px;
-    margin-left: 75px;
-    width: 180px;
-
- animation: marquee 2.5s linear infinite;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 140px;
+/* animation: marquee 2.5s linear infinite; */
 
 }
 
