@@ -168,11 +168,11 @@ overflow:hidden;
     .cards {
         flex-direction: column;
         align-items: center;
-        max-height: 240px;
+        max-height: 250px;
     }
 
     .card {
-        width: 35vw;
+        width: 40vw;
     }
 }
 
