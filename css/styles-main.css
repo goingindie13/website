@@ -107,7 +107,7 @@ box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 
 .content-main {
 background: radial-gradient(ellipse at center,  #4b4d56 0%,#191c24 100%); 
-
+overflow-x:hidden;
 }
 
 .cards {
