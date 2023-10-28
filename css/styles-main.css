@@ -115,6 +115,7 @@ background: radial-gradient(ellipse at center,  #4b4d56 0%,#191c24 100%);
     justify-content: space-around;
     flex-wrap: wrap;
     padding:30px 0px 50px 0px;
+    overflow-x:scroll;
 }
 
 .card {
@@ -123,7 +124,7 @@ background: radial-gradient(ellipse at center,  #4b4d56 0%,#191c24 100%);
     cursor:pointer;
     height:400px;
     max-width:300px;
-    width: calc(80% / 4 - 20px);
+    width: calc(80% / 5 - 5px);
     margin: 10px;
     transition: transform 0.3s;
     background: #D9D9D9;
