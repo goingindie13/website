@@ -190,7 +190,7 @@ overflow:hidden;
     margin-right: 75px;
     margin-left: 75px;
     width: 180px;
-    animation: marquee 2.5s linear infinite;
+  /*  animation: marquee 2.5s linear infinite; */
 }
 
 @keyframes marquee {
