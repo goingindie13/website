@@ -164,7 +164,7 @@ overflow:hidden;
 }
 
 /* Mobile responsiveness */
-@media (max-width: 1168px) {
+@media (max-width: 1268px) {
     .cards {
         flex-direction: column;
         align-items: center;
@@ -205,7 +205,7 @@ overflow:hidden;
     padding: 20px;
     margin-right: 25px;
     margin-left: 25px;
-    height: 140px;
+    height: 40px;
 /* animation: marquee 2.5s linear infinite; */
 
 }
