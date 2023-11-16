@@ -1,0 +1,1032 @@
+/* fonts */
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: 'aileronblack';
+	src: url(../fonts/aileron-black-webfont.eot);
+	src: url(../fonts/aileron-black-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/aileron-black-webfont.woff2) format("woff2"),url(../fonts/aileron-black-webfont.woff) format("woff"),url(../fonts/aileron-black-webfont.ttf) format("truetype"),url(../fonts/aileron-black-webfont.svg#aileronblack) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'aileronbold';
+	src: url(../fonts/aileron-bold-webfont.eot);
+	src: url(../fonts/aileron-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/aileron-bold-webfont.woff2) format("woff2"),url(../fonts/aileron-bold-webfont.woff) format("woff"),url(../fonts/aileron-bold-webfont.ttf) format("truetype"),url(../fonts/aileron-bold-webfont.svg#aileronbold) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'aileronregular';
+	src: url(../fonts/aileron-regular-webfont.eot);
+	src: url(../fonts/aileron-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/aileron-regular-webfont.woff2) format("woff2"),url(../fonts/aileron-regular-webfont.woff) format("woff"),url(../fonts/aileron-regular-webfont.ttf) format("truetype"),url(../fonts/aileron-regular-webfont.svg#aileronregular) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sansbold';
+	src: url(../fonts/opensans-bold-webfont.eot);
+	src: url(../fonts/opensans-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/opensans-bold-webfont.woff) format("woff"),url(../fonts/opensans-bold-webfont.ttf) format("truetype"),url(../fonts/opensans-bold-webfont.svg#open_sansbold) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sansregular';
+	src: url(../fonts/opensans-regular-webfont.eot);
+	src: url(../fonts/opensans-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/opensans-regular-webfont.woff) format("woff"),url(../fonts/opensans-regular-webfont.ttf) format("truetype"),url(../fonts/opensans-regular-webfont.svg#open_sansregular) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'open_sanslight';
+	src: url(../fonts/opensans-light-webfont.eot);
+	src: url(../fonts/opensans-light-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/opensans-light-webfont.woff) format("woff"),url(../fonts/opensans-light-webfont.ttf) format("truetype"),url(../fonts/opensans-light-webfont.svg#open_sanslight) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'dosisregular';
+	src: url(../fonts/dosis-regular-webfont.eot);
+	src: url(../fonts/dosis-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/dosis-regular-webfont.woff2) format("woff2"),url(../fonts/dosis-regular-webfont.woff) format("woff"),url(../fonts/dosis-regular-webfont.ttf) format("truetype"),url(../fonts/dosis-regular-webfont.svg#dosisregular) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+.navbar.brand img {
+	display: block;
+	float: left;
+}
+
+.navbar-nav {
+	margin-top: 20px;
+	/*width: 100%;*/
+}
+
+.navbar-header {
+	height: 68px;
+	width: 100%;
+}
+
+.navbar-main {
+	background: #2a2d33;
+	height: 88px;
+	width: 100%;
+}
+
+.navbar-main ul li a {
+	color: #abacad;
+	font-family: 'aileronblack',arial,sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: .14em;
+}
+
+.navbar-main ul li.active a,.navbar-main ul li a:hover,.navbar-main ul li a:focus {
+	color: #40bed7;
+	background: none !important;
+}
+
+.navbar-brand {
+	font-family: 'aileronregular',arial,sans-serif;
+	color: #abacad;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: .14em;
+	padding-top: 22px;
+	padding-left: 10px;
+	line-height: 47px;
+}
+
+.nav .open>a,.nav .open>a:focus,.nav .open>a:hover {
+	background: none;
+	color: #abacad;
+	box-shadow: none;
+}
+
+.nav .open>a:active,.nav .open>a:active {
+	background: none;
+	color: #abacad;
+	text-shadow: none;
+}
+
+.navbar-brand > img {
+	float: left;
+	padding-right: 17px;
+}
+
+a.navbar-brand {
+	color: #abacad;
+}
+
+.navbar-brand span {
+	font-family: 'aileronblack',arial,sans-serif;
+	color: #abacad;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.nav .open>a {
+	border: none;
+	background: none;
+}
+
+ul.li-navbar-user a:hover {
+	border: none;
+}
+
+li.navbar-user {
+	float: right !important;
+	margin-top: 5px;
+}
+
+li.nav-tab {
+	padding: 15px 10px;
+}
+
+.logo {
+	height: 60px;
+	margin-top: -8px;
+}
+
+.navbar-user img {
+	margin-right: 3px;
+}
+
+a.btn-user {
+	border: none !important;
+	background: none !important;
+	box-shadow: none !important;
+}
+
+a {
+	cursor: pointer;
+}
+
+.alert-sm {
+	padding: 5px 10px;
+}
+
+.icon-user {
+	width: 28px;
+	height: 28px;
+	background: url(../images/icon-user.png) no-repeat;
+	margin-right: 16px;
+	display: inline-block;
+	float: left;
+	margin-top: ;
+}
+
+.username {
+	font-family: 'aileronbold',arial,sans-serif;
+	color: #abacad;
+	font-size: 18px;
+	letter-spacing: .14em;
+	text-transform: none;
+	padding-right: 10px;
+}
+
+#userdropdown .glyphicon-chevron-down {
+	color: #43464b;
+}
+
+li.navbar-user ul.dropdown-menu li a {
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+
+ul li.navbar-user ul.dropdown-menu li {
+}
+
+ul li.navbar-user ul.dropdown-menu li:last-child {
+	padding-bottom: 15px;
+}
+
+/* mobile nav */
+button.navbar-toggle {
+	margin-top: 25px;
+	border: none;
+}
+
+button.navbar-toggle .icon-bar {
+	background: #abacad !important;
+}
+
+/* mobile menu */
+@media (max-width: 768px) {
+.navbar-collapse,.navbar-default {
+	border: none !important;
+	background: none;
+	box-shadow: none;
+}
+
+.navbar-collapse ul.nav-basic li:first-child a {
+	padding: 5px 20px 10px !important;
+	border-radius: 0;
+	margin-right: 5px;
+}
+
+.navbar-collapse.in {
+	background: #fff !important;
+	border: 1px solid #ededf0 !important;
+}
+
+.navbar-collapse.in ul.nav-basic {
+	background: #fff !important;
+	float: right !important;
+}
+
+.username {
+	font-size: 12px;
+}
+
+li.navbar-user ul.dropdown-menu li a {
+	font-size: 12px;
+	letter-spacing: .05em;
+}
+
+.navbar-brand,.navbar-brand span {
+	font-size: 16px;
+	letter-spacing: .12em;
+}
+}
+
+/* maintenance table */
+.table-basic {
+	color: #676767;
+	font-family: 'open_sansregular',arial,sans-serif;
+	border-collapse: separate !important;
+}
+
+.table-basic th {
+	font-family: 'open_sansbold',arial,sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #676767;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	padding-bottom: 13px !important;
+	border-bottom: 2px solid #ededf0;
+}
+
+.table-basic>tbody>tr>td {
+	border: none;
+	padding-right: none !important;
+}
+
+
+td.maint-expired {
+	background: url(../images/stripes-expired.png) repeat;
+	background-size: contain;
+	text-align: center;
+	color: #d3554f;
+	font-family: 'open_sansbold',arial,sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	vertical-align: middle !important;
+	border-top: 1px solid #fff !important;
+	border-bottom: 1px solid #fff !important;
+}
+
+.maint-warning {
+	color: #c99c26;
+}
+
+.maint-status-time {
+	font-family: 'open_sansbold',sans-serif;
+}
+
+.maint-status-aircraft-name {
+	width: 22%;
+}
+
+th.maint-status-aircraft-name {
+	padding-left: 22px !important;
+}
+
+.table-basic td {
+	padding-bottom: 11px !important;
+}
+
+.table-basic td span.plane, .schedule-date-title {
+	font-family: 'open_sansbold',arial,sans-serif;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background: #fff;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+	background: #f2f2f4;
+}
+
+.table-basic td.maint-status,.table-basic th.maint-status {
+	padding: 0 !important;
+	width: 7px;
+}
+
+.table-basic td.plane {
+	padding-left: 19px !important;
+}
+
+.table-basic td.maint-status-expired {
+	background: #d3554f url(../images/maint-status-stripes.png) repeat-y;
+	padding: 0 !important;
+}
+
+.table-basic td.maint-status-warning {
+	background: #d3af4f url(../images/maint-status-stripes.png) repeat-y;
+}
+
+.table-basic td.maint-status-normal {
+	background: #d7d7d9;
+	background-size: contain;
+}
+
+.table-basic td {
+	padding-top: 13px !important;
+	padding-bottom: 13px !important;
+}
+
+.aircraft-legend {
+	margin-top: 40px;
+	width: auto;
+}
+
+.aircraft-legend ul {
+	list-style-type: none;
+	display: table;
+	float: left;
+	padding: 0;
+}
+
+.aircraft-legend ul li {
+	float: left;
+	display: table-cell;
+	padding-left: 51px;
+}
+
+.aircraft-legend ul li:first-child {
+	padding-left: 0 !important;
+}
+
+.aircraft-legend ul li:last-child {
+	padding-right: 15px !important;
+}
+
+.aircraft-legend {
+	letter-spacing: .14em;
+}
+
+.content-main {
+	padding-top: 100px;
+	clear: both;
+}
+
+.content-lower {
+	clear: both;
+}
+
+.calendar {
+}
+
+.content-calendar {
+	padding-top: 15px;
+	padding-bottom: 55px;
+	background: #ebebed;
+}
+
+.calendar-title {
+	padding: 14px 0 !important;
+}
+
+abbr {
+	border-bottom: 1px dotted #000000;
+	cursor: help;
+}
+
+h1, h2, h3 {
+	font-family: 'dosisregular','arial rounded',sans-serif;
+	/*font-size: 26px;*/
+	color: #676767;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ebebed;
+}
+
+h2.heading-dash-basic {
+	margin-top: 21px;
+	padding-left: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+    border:none;
+}
+
+h2.heading-dash-basic img {
+	margin-right: 19px;
+	margin-top: 0;
+}
+
+h2.heading-dash-maint img {
+	margin-right: 19px;
+	margin-top: -5px;
+}
+
+h1.page-title {
+	padding-bottom: 10px;
+	border-bottom: 0;
+	margin-bottom: 10px
+}
+
+h3[ng-click] {
+	cursor: pointer;
+}
+
+label {
+	font-weight: normal;
+}
+
+label.control-label {
+	font-weight: bold;
+}
+
+.label-detail {
+	font-weight: normal;
+	font-size: smaller;
+}
+
+ul.checkbox-list {
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-left: 1em;
+	list-style: none;
+}
+
+div.progress-striped {
+	margin-bottom: 0;
+}
+
+/* schedule table */
+
+.table-basic-schedule {
+	color: #676767;
+	font-family: 'open_sansregular',arial,sans-serif;
+	border-collapse: separate !important;
+}
+
+.table-basic-schedule th {
+	font-family: 'open_sansbold',arial,sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #676767;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	padding-bottom: 13px !important;
+	border-bottom: 2px solid #ededf0;
+    text-align:center;
+}
+
+.table-basic-schedule>tbody>tr>td {
+	border: none;
+	padding-right: none !important;
+}
+
+
+.table-basic-schedule td.maint-expired {
+	background: url(../images/stripes-expired.png) repeat;
+	background-size: contain;
+	text-align: center;
+	color: #d3554f;
+	font-family: 'open_sansbold',arial,sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	vertical-align: middle !important;
+	border-top: 1px solid #fff !important;
+	border-bottom: 1px solid #fff !important;
+}
+
+.table-basic-schedule .maint-warning {
+	color: #c99c26;
+}
+
+.table-basic-schedule .maint-status-time {
+	font-family: 'open_sansbold',sans-serif;
+}
+
+.table-basic-schedule .maint-status-aircraft-name {
+	width: 22%;
+}
+
+table.table-basic-schedule th.maint-status-aircraft-name {
+	padding-left: 22px !important;
+}
+
+.table-basic-schedule td {
+	padding-bottom: 11px !important;
+}
+
+.table-basic-schedule td span.plane {
+	font-family: 'open_sansbold',arial,sans-serif;
+}
+
+.table-basic td.maint-status,.table-basic th.maint-status {
+	padding: 0 !important;
+	width: 7px;
+}
+
+.table-basic-schedule td.plane {
+	padding-left: 19px !important;
+}
+
+.table-basic-schedule td.maint-status-expired {
+	background: #d3554f url(../images/maint-status-stripes.png) repeat-y;
+	padding: 0 !important;
+}
+
+.table-basic-schedule td.maint-status-warning {
+	background: #d3af4f url(../images/maint-status-stripes.png) repeat-y;
+}
+
+.table-basic-schedule td.maint-status-normal {
+	background: #d7d7d9;
+	background-size: contain;
+}
+
+.table-basic-schedule td {
+	padding-top: 13px !important;
+	padding-bottom: 13px !important;
+}
+
+
+
+
+
+.footer {
+	padding: 25px 0;
+	color: #a9a9aa;
+	font-family: 'open_sansregular',arial,sans-serif;
+	font-size: 14px;
+}
+
+.dv-collapse {
+	margin-bottom: 2em;
+}
+
+/* calendar */
+.calendar h3 {
+	font-family: 'dosisregular','arial rounded',sans-serif;
+	font-size: 32px;
+	color: #676767;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+h4.day {
+	font-family: 'open_sansbold',helvetica,sans-serif;
+	font-weight: 400;
+	letter-spacing: .14em;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #6a6a6b;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	letter-spacing: .14em;
+}
+
+.calendar .date {
+	font-family: 'open_sansregular',helvetica,sans-serif;
+	font-size: 12px;
+	letter-spacing: .14em;
+	color: #959597;
+}
+
+.cal-block {
+	background: #fff;
+	padding: 15px 20px 20px !important;
+	color: #737373;
+	min-height: 105px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.row-lower {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}
+
+.calendar .instructor {
+	font-family: 'open_sansregular',helvetica,sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 5px;
+}
+
+
+.table-basic-schedule .instructor {
+	font-family: 'open_sansregular',helvetica,sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 5px;
+}
+
+.calendar .name,.calendar .plane {
+	font-family: 'open_sanslight',helvetica,sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.calendar .name {
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.calendar .time {
+	font-family: 'open_sansbold',helvetica,sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+.nopad {
+	padding: 0;
+}
+
+.nopad-vert {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.nopad-right {
+	padding-right: 0;
+}
+
+.nopad-left {
+	padding-left: 0;
+}
+
+.nopad-top {
+	padding-top: 0 !important;
+}
+
+.cal-aircraft-circle {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	float: left;
+	margin: 5px 14px 0 0;
+}
+
+.cal-aircraft-color1 {
+	background: #8065ac;
+}
+
+.cal-aircraft-color2 {
+	background: #e7cf62;
+}
+
+.cal-aircraft-color3 {
+	background: #5fbe85;
+}
+
+.cal-block .cal-aircraft-circle {
+}
+
+.icon {
+	display: inline-block;
+	position: relative;
+	top: 1px;
+}
+
+.icon-plane {
+	background: url(../images/icon-plane.png) no-repeat left;
+	width: 16px;
+	height: 16px;
+	margin-left: -3px;
+	margin-bottom: -2px;
+	margin-right: 10px;
+}
+
+.modal-header h3 {
+	border-bottom: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media (max-width:1199px) {
+.calendar .time {
+	font-family: 'open_sansbold',helvetica,sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+}
+
+@media (min-width:980px) and (max-width:1199px) {
+.calendar .name {
+	font-size: 12px;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap;
+	max-width: 150px !important;
+	float: right;
+}
+
+.calendar .plane {
+	font-size: 12px;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap;
+	max-width: 150px !important;
+}
+
+.calendar .instructor {
+	font-size: 9px;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap;
+	max-width: 130px !important;
+}
+}
+
+@media (max-width:992px) {
+/*   @media (max-width:768px) { */
+.col-calendar {
+	padding-top: 25px !important;
+}
+}
+
+@media (min-width:768px) and (max-width:992px) {
+.navbar-main ul li a {
+	color: #abacad;
+	font-family: 'aileronblack',arial,sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .14em;
+}
+
+.navbar-user img {
+	width: 24px;
+	height: auto;
+}
+
+.navbar-brand,.navbar-brand span {
+	font-size: 14px;
+	letter-spacing: .12em;
+}
+
+.navbar-main ul li.navbar-user .glyphicon-chevron-down {
+	line-height: 24px;
+}
+}
+
+
+/* fixes bootstrap gap */
+@media (min-width:626px) and (max-width:767px) {
+    .maint-responsive {
+    display:none;
+
+    }
+}
+
+
+/* responsive table */
+@media screen and (max-width: 624px) {
+.navbar-user .glyphicon-chevron-down {
+	font-size: 12px;
+}
+
+table.table-basic, .table-basic-schedule {
+	border: 0;
+}
+    
+table.table-basic-schedule td, table.table-basic-schedule  {
+position:relative !important;
+}
+
+table.table-basic thead, table.table-basic-schedule thead {
+	display: none;
+}
+
+table.table-basic tr, table.table-basic-schedule tr {
+	margin-bottom: 10px;
+	display: block;
+	position: relative;
+}
+
+table.table-basic td, .table-basic-schedule td {
+	display: block;
+	text-align: right;
+	font-size: 13px;
+	border-bottom: 1px dashed #d4d4d6 !important;
+	padding-bottom: 15px !important;
+	padding-left: 20px !important;
+	empty-cells: show !important;
+}
+
+table.table-basic td.maint-status, .table-basic-schedule td.maint-status {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 282px;
+	border-bottom: 0x !important;
+}
+
+table.table-basic th, table.table-basic-schedule th {
+	border-bottom: 1px dashed #d4d4d6;
+}
+
+table.table-basic td:last-child, table.table-basic-schedule td:last-child {
+	border-bottom: 0;
+}
+
+    
+ table.table-basic td:before, table.table-basic-schedule td:before  {   
+    
+	content: attr(data-label);
+	float: left;
+	font-family: 'open_sansbold',arial,sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+/*	color: #676767; */
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	padding-bottom: 13px !important;
+     clear:both;
+     line-height:normal;
+}
+    
+
+    table.table-basic td, table.table-basic-schedule td  {    
+     min-height:40px;   
+    }
+    
+
+h3.heading-dash-maint {
+	margin-bottom: 25px;
+}
+    
+    
+}
+
+
+table.table-basic-schedule td {
+  border-left:1px solid #ddd !important;  
+}
+
+
+table.table-basic-schedule td:first-child {
+  border-left:0px !important;  
+}
+
+
+table.table-basic-schedule td {
+ 4%;
+    
+}
+
+table.table-basic-schedule td.subject {
+   width:11.88% !important;
+    
+}
+
+
+table.table-basic-schedule td:first-child {
+    width:1%;
+    
+}
+
+td.sch-col-2 {
+  -webkit-column-span: 2;
+-moz-column-span: 2;  
+    -ms-column-span: 2;  
+    -o-column-span: 2;  
+  column-span: 2 !important;    
+}
+
+
+
+td.sch-col-4 {
+  -webkit-column-span: 4;
+-moz-column-span: 4;  
+    -ms-column-span: 4;  
+    -o-column-span: 4;  
+  column-span: 4 !important;    
+}
+
+
+
+td.sch-col-6 {
+  -webkit-column-span: 6;
+-moz-column-span: 6;  
+    -ms-column-span: 6;  
+    -o-column-span: 6;  
+  column-span: 6 !important;    
+}
+
+
+table.table-basic-schedule  {
+  border-bottom:1px solid #ddd;  
+}
+
+.list-basic {
+    border:0px 0px 1px 0px;
+    
+}
+
+.schedule-event {
+  text-align:center;  
+    
+}
+
+.schedule-select-highlight {
+    color:#e84e24;
+}
+
+::selection {
+    color:#fff !important;
+    background:#e7cf62 !important; 
+}
+
+.nav-schedule {
+    min-height:35px;
+    clear:both;
+    padding-bottom:50px;
+}
+
+
+.schedule-date-title {
+    padding-left:25px;
+    line-height:24px;
+    font-size:14px;
+}
+
+.btn-schedule {
+   border-radius:none;
+    min-height:45px;
+    width:100%;
+    padding:7px;
+}
+
+.schedule-event {
+    background:#89cda4; 
+    color:#20402d;
+    border-bottom:2px solid #5fbe85 !important;
+}
+
+
+
+
+
+
+.sch-time {
+    float:right;  
+}
+
+.sch-time-month {
+    font-style:italic;
+    font-size:10px;
+}
+
+.schedule-event-all {
+    background:#e7cf62; 
+    color:#4f4721;
+    border-bottom:2px solid #d9c154 !important;
+    text-align:center;
+}
+
+
+
+table.table-basic-schedule td.sch-all-day {
+    background:#e7cf62;
+	background-size: contain;
+    text-align:center;
+}
+
+
+
+.all-day-small .glyphicon, .text-small-all-day {
+    color:#fff;
+}
+
+
+.table-basic-schedule .instructor {
+    padding:0px !important;
+ 
+}
+
+.description-modal {
+    padding-bottom:25px;
+    
+}

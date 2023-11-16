@@ -1,0 +1,780 @@
+
+/* fonts */
+
+body {
+    -webkit-font-smoothing:antialiased;
+}
+
+@font-face {
+    font-family: 'aileronblack';
+    src: url('../fonts/aileron-black-webfont.eot');
+    src: url('../fonts/aileron-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-black-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-black-webfont.woff') format('woff'),
+         url('../fonts/aileron-black-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aileronbold';
+    src: url('../fonts/aileron-bold-webfont.eot');
+    src: url('../fonts/aileron-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-bold-webfont.woff') format('woff'),
+         url('../fonts/aileron-bold-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-bold-webfont.svg#aileronbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('../fonts/aileron-regular-webfont.eot');
+    src: url('../fonts/aileron-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aileron-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-regular-webfont.woff') format('woff'),
+         url('../fonts/aileron-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aileron-regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('../fonts/dosis-regular-webfont.eot');
+    src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-regular-webfont.woff') format('woff'),
+         url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar.brand img {
+  display:block;
+    float:left;
+    
+}
+
+
+
+
+
+.navbar-nav {
+    padding-top:20px;
+  /*  padding-left:75px; */
+}
+
+
+.navbar-header {
+    height:88px;
+    width:100%;
+}
+
+.navbar-main {
+    background:#2a2d33;
+    height:88px;
+    width:100%;
+}
+
+
+.navbar-main ul li a {
+    color:#abacad;
+     font-family:'aileronblack', arial, sans-serif;
+    font-size:16px;
+    text-transform:uppercase;
+     letter-spacing:.14em;
+}
+
+
+.navbar-main ul li.active a, .navbar-main ul li a:hover, .navbar-main ul li a:focus {
+    color:#40bed7;
+    background:none !important;
+}
+
+
+
+.navbar-brand {
+     font-family:'aileronregular', arial, sans-serif;
+    color:#abacad;
+    font-size:18px;
+    text-transform:uppercase;
+     letter-spacing:.14em;
+    padding-top:25px;
+    padding-left:10px;
+    line-height:35px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+background:none;
+  color:#abacad;
+    box-shadow:none;
+}
+
+
+
+.nav .open>a:active, .nav .open>a:active {
+background:none;
+  color:#abacad;
+    text-shadow:none;
+}
+
+.navbar-brand > img {
+    float:left;
+    padding-right:17px;
+}
+
+
+a.navbar-brand {
+color:#abacad
+}
+
+
+
+.navbar-brand span {
+     font-family:'aileronblack', arial, sans-serif;
+    color:#abacad;
+    font-size:18px;
+    text-transform:uppercase;
+    
+}
+
+
+.nav .open>a {
+  border:none;
+    background:none;
+    
+}
+
+ul.li-navbar-user a:hover {
+    border:none;
+    
+}
+
+li.navbar-user {
+   float:right !important;
+    margin-top:0px;
+}
+
+.navbar-user img {
+   margin-right:10px; 
+    
+}
+
+a.btn-user {
+   border:none !important;
+    background:none !important;
+    box-shadow:none !important;
+    
+}
+
+.icon-user {
+    width:28px;
+    height:28px;
+background:url(../images/icon-user.png) no-repeat;
+    margin-right:11px;
+    display:inline-block;
+    float:left;
+    margin-top:-5px;
+}
+
+
+.username {
+       font-family:'aileronbold', arial, sans-serif;
+    color:#abacad;
+    font-size:18px; 
+    letter-spacing:.14em;
+    text-transform:none;
+}
+
+
+#userdropdown .glyphicon-chevron-down {
+   color:#43464b; 
+    
+}
+
+li.navbar-user ul.dropdown-menu li a {
+font-size:14px;
+    letter-spacing:.10em;
+}
+
+ul li.navbar-user ul.dropdown-menu li   {
+    padding-top:15px;
+}
+
+ul li.navbar-user ul.dropdown-menu li:last-child   {
+padding-bottom:15px;
+}
+
+
+/* mobile nav */
+
+
+button.navbar-toggle {
+    border:1px solid #abacad;
+   margin-top:25px;
+}
+
+
+button.navbar-toggle .icon-bar {
+    background:#abacad !important;
+}
+
+
+
+/* maintenance table */
+
+.table-basic {
+ color:#676767;
+    font-family:'open_sansregular',arial,sans-serif;
+    border-collapse: separate !important;
+}
+
+
+.table-basic th {
+    font-family:'open_sansbold', arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+color:#676767;
+    text-transform:uppercase;
+     letter-spacing:.05em;
+    padding-bottom:13px !important;
+    border-bottom:2px solid #ededf0 !important;
+}
+
+
+
+
+
+.table-basic>tbody>tr>td {
+  border:none;
+padding-right:none !important; 
+}
+
+/* first table row 
+.table-basic tr:first-child td {
+    border-top:1px solid gray;
+} */
+
+
+td.maint-expired {
+background:url(../images/stripes-expired.png) repeat;
+    background-size:contain;
+    text-align:center;
+    color:#d3554f;
+    font-family:'open_sansbold',arial,sans-serif;
+    text-transform:uppercase;
+    font-size:14px;
+    vertical-align: middle !important;
+    border-top:1px solid #fff !important;
+    border-bottom:1px solid #fff !important; 
+    
+}
+
+
+
+
+
+.maint-warning {
+    color:#c99c26;
+}
+
+.maint-status-time {
+ font-family:'open_sansbold',sans-serif;
+}
+
+.maint-status-aircraft-name {
+    width:22%;
+}
+
+th.maint-status-aircraft-name {
+  padding-left:22px !important;  
+    
+}
+
+
+.table-basic td {
+  padding-bottom:11px !important;
+}
+
+.table-basic td span.plane {
+    font-family:'open_sansbold', arial, sans-serif; 
+}
+
+
+
+.table-striped>tbody>tr:nth-of-type(odd) { 
+   background:#fff; 
+}
+
+.table-striped>tbody>tr:nth-of-type(even) { 
+   background:#f2f2f4; 
+}
+
+
+
+
+
+.table-basic td.maint-status, .table-basic th.maint-status  {
+ padding:0px !important;   
+    width:7px;
+    
+}
+
+.table-basic td.plane {
+    padding-left:19px !important;
+}
+
+.table-basic td.maint-status-expired {
+    background:#d3554f url(../images/maint-status-stripes.png) repeat-y;
+  padding:0px !important;
+}
+
+
+
+.table-basic td.maint-status-warning {
+    background:#d3af4f url(../images/maint-status-stripes.png) repeat-y;
+
+}
+
+
+.table-basic td.maint-status-normal {
+    background:#d7d7d9;
+    background-size:contain;
+}
+
+
+.table-basic td {
+    padding-top:13px !important;
+    padding-bottom:13px !important;
+    
+}
+
+.aircraft-legend {
+ margin-top:40px;
+    width:auto;
+}
+
+.aircraft-legend ul {
+  list-style-type:none;  
+    display:table;
+    float:left;
+    padding:0px;
+}
+
+.aircraft-legend ul li {
+float:left; 
+    display:table-cell;
+    padding-left:51px;
+}
+
+.aircraft-legend ul li:first-child {
+padding-left:0px !important;
+}
+
+.aircraft-legend ul li:last-child {
+padding-right:15px !important;
+}
+
+.aircraft-legend {
+letter-spacing:.14em;
+}
+
+
+
+.content-main {
+  padding-top:106px;  
+  clear:both;  
+}
+
+.content-lower {
+
+    clear:both;
+}
+
+.calendar {
+padding 0px !important;
+    
+}
+
+.content-calendar {
+padding-top:15px;
+padding-bottom:55px;
+background:#ebebed;  
+}
+
+.calendar-title {
+    padding:14px 0px 14px 0px !important;
+}
+
+h3 {
+  font-family:'dosisregular', 'arial rounded', sans-serif; 
+font-size:32px;
+    color:#676767;
+   text-transform:uppercase; 
+    font-weight:normal;
+}
+
+h3.heading-dash-basic {
+    margin-top:21px;
+    padding-left:0px;
+    margin-left:0px;
+    margin-bottom:10px;
+}
+
+h3.heading-dash-basic img {
+   margin-right:19px;
+       margin-top:0px; 
+}
+
+h3.heading-dash-maint img {
+   margin-right:19px;
+       margin-top:-5px; 
+}
+
+
+.footer {
+    padding:25px 0px 25px 0px;
+    color:#a9a9aa;
+    font-family:'open_sansregular',arial,sans-serif;
+    font-size:14px;
+}
+
+
+/* calendar */ 
+
+
+
+
+.calendar h3 {
+  font-family:'dosisregular', 'arial rounded', sans-serif; 
+font-size:32px;
+    color:#676767;
+   text-transform:uppercase; 
+    font-weight:normal;
+}
+
+
+h4.day {
+  font-family:'open_sansbold', helvetica, sans-serif;   
+  font-weight:normal;
+    letter-spacing:.14em;
+    font-size:18px;
+    text-transform:uppercase;
+    color:#6a6a6b;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    letter-spacing:.14em;
+    
+}
+
+.calendar .date {
+     font-family:'open_sansregular', helvetica, sans-serif; 
+    font-size:12px;
+    letter-spacing:.14em;
+    color:#959597;
+}
+
+.cal-block {
+    background:#fff;
+    padding:15px 20px 20px 20px!important;
+    color:#737373;
+    min-height:105px;
+    margin-top:15px;
+    position:relative;
+}
+
+
+.row-lower { 
+ position:absolute;
+    bottom:15px;
+    width:100%;
+}
+
+.calendar .instructor {
+    font-family:'open_sansregular', helvetica, sans-serif; 
+    font-size:10px;
+    text-transform:uppercase;
+    text-align:right;
+    padding-right:40px;
+    padding-top:5px;
+    
+}
+
+.calendar .name, .calendar .plane {
+   font-family:'open_sanslight', helvetica, sans-serif; 
+    font-size:14px;
+    text-transform:capitalize;
+    
+}
+
+.calendar .name {
+    text-align:right;
+    text-transform:uppercase;
+}
+
+
+
+
+
+
+   .calendar .time {
+   font-family:'open_sansbold', helvetica, sans-serif; 
+    font-size:15px;
+    text-transform:uppercase;  
+    letter-spacing:.05em;
+   }
+       
+       
+.nopad {
+    padding:0px;
+    
+}
+
+.nopad-vert {
+    padding-right:0px;
+    padding-left:0px;
+    
+}
+
+.nopad-right {
+    padding-right:0px; 
+}
+
+.nopad-left {
+    padding-left:0px; 
+}
+
+.nopad-top {
+ padding-top:0px !important;   
+    
+}
+
+.cal-aircraft-circle {
+    display:block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    float:left;
+    margin:5px 14px 0px 0px;
+}
+
+.cal-aircraft-color1 {
+     background:#8065ac;   
+}
+
+
+.cal-aircraft-color2 {
+     background:#e7cf62;   
+}
+
+.cal-aircraft-color3 {
+     background:#5fbe85;   
+}
+
+.cal-block .cal-aircraft-circle {
+    
+}
+
+.icon {
+ display:inline-block;
+    position:relative;
+    top:1px;
+    
+}
+
+.icon-plane {
+  background:url(../images/icon-plane.png) no-repeat left;  
+width:16px;
+    height:16px;
+    margin-left:-3px;
+    margin-bottom:-2px;
+    margin-right:10px;
+} 
+    
+
+
+
+@media (max-width:1199px) {
+   .calendar .time {
+   font-family:'open_sansbold', helvetica, sans-serif; 
+    font-size:12px;
+    text-transform:uppercase;  
+    letter-spacing:.05em;
+}
+   
+}
+
+
+@media (min-width:980px) and (max-width:1199px) {
+   
+    .calendar .name {
+    font-size:12px;
+        overflow:hidden !important;
+    text-overflow:ellipsis !important;
+        white-space:nowrap;
+    max-width:150px !important;  
+        float:right;
+        
+}
+    
+        .calendar .plane {
+    font-size:12px;
+        overflow:hidden !important;
+    text-overflow:ellipsis !important;
+        white-space:nowrap;
+    max-width:150px !important;  
+     
+        
+}
+    
+    
+.calendar .instructor {
+    font-size:9px;
+        overflow:hidden !important;
+    text-overflow:ellipsis !important;
+        white-space:nowrap;
+    max-width:130px !important;  
+
+}
+    
+
+}
+
+    
+ 
+    
+    
+    
+
+
+@media (max-width:992px) { 
+ /*   @media (max-width:768px) { */
+    .col-calendar {
+       padding-top:25px !important; 
+    }
+    
+    
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+    
+    
+        
+    .navbar-main ul li a {
+    color:#abacad;
+     font-family:'aileronblack', arial, sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+     letter-spacing:.14em;
+}
+    
+    
+    .navbar-user img {
+    width:24px;
+    height:auto;
+}
+
+    .navbar-brand, .navbar-brand span {
+    font-size:14px;
+     letter-spacing:.12em;
+
+} 
+}
+
+
+
+
+
+/* responsive table */
+/* http://codepen.io/anon/pen/QwPVNW */
+/*
+@media screen and (max-width: 600px) {
+
+    table {
+      border: 0;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+*/

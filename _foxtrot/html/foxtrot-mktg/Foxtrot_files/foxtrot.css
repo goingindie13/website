@@ -1,0 +1,1343 @@
+body {
+    overflow-x: hidden;
+    font-family: "latoregular", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+
+
+font-face {
+	font-family: 'aileronblack';
+	src: url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-black-webfont.eot);
+	src: url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-black-webfont.eot#iefix) format("embedded-opentype"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-black-webfont.woff2) format("woff2"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-black-webfont.woff) format("woff"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-black-webfont.ttf) format("truetype"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-black-webfont.svg#aileronblack) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'aileronbold';
+	src: url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-bold-webfont.eot);
+	src: url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-bold-webfont.eot#iefix) format("embedded-opentype"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-bold-webfont.woff2) format("woff2"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-bold-webfont.woff) format("woff"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-bold-webfont.ttf) format("truetype"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-bold-webfont.svg#aileronbold) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'aileronregular';
+	src: url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-regular-webfont.eot);
+	src: url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-regular-webfont.eot#iefix) format("embedded-opentype"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-regular-webfont.woff2) format("woff2"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-regular-webfont.woff) format("woff"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-regular-webfont.ttf) format("truetype"),url(/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-regular-webfont.svg#aileronregular) format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'aileronsemibold';
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-semibold-webfont.eot');
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-semibold-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-semibold-webfont.woff2') format('woff2'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-semibold-webfont.woff') format('woff'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-semibold-webfont.ttf') format('truetype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/aileron-semibold-webfont.svg#aileronsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-light-webfont.eot');
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-light-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-light-webfont.woff2') format('woff2'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-light-webfont.woff') format('woff'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-light-webfont.ttf') format('truetype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-bold-webfont.eot');
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-bold-webfont.woff') format('woff'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-regular-webfont.eot');
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-regular-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-regular-webfont.woff') format('woff'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/dosis-regular-webfont.eot');
+    src: url('/web/20160610192340im_/http://foxtrothq.com/fonts/dosis-regular-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/dosis-regular-webfont.woff') format('woff'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('/web/20160610192340im_/http://foxtrothq.com/fonts/dosis-regular-webfont.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.text-muted {
+    color: #777
+}
+
+.text-primary {
+    color: #fed136
+}
+
+p {
+    font-family:"latoregular",arial,sans-serif;
+    font-size: 26px;
+    letter-spacing:.05em;
+    line-height: 1.58;
+}
+
+p.large {
+    font-size: 16px
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0
+}
+
+a {
+    color: #fed136
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'dosisregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 50px;
+    color:#e84e24;
+}
+
+
+
+.img-centered {
+    margin: 0 auto
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7
+}
+
+.bg-darkest-gray {
+    background-color: #222
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #fec503;
+    border-color: #f6bf01
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    background-color: #fed136;
+    border-color: #fed136
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #e84f25;
+    border-color: #e84f25;
+    font-family: "aileronsemibold",  Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-size: 24px;
+    padding: 5px 120px;
+        margin-top:15px;
+    float:right;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #f25327;
+    border-color: #f25327;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    background-color: #fed136;
+    border-color: #fed136
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff
+}
+
+.navbar-default {
+    background-color: #222;
+    border-color: transparent
+}
+
+.navbar-default .navbar-brand {
+    color: #fed136;
+   background:url(/web/20160610192340im_/http://foxtrothq.com/images/logo-foxtrot.png) no-repeat;
+    width:339px;
+    height:54px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, .02);
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #e84e24;
+    border-color: #e84e24;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: none;
+}
+
+.navbar-default .nav li a {
+    font-family: "aileronregular",  Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size:18px;
+    letter-spacing: .05em;
+    color: #e84e24;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #545e5e;
+    outline: 0
+}
+
+
+
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #545e5e;
+    background-color: none !important;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #545e5e;
+    background-color: none !important;
+}
+
+.navbar-default.navbar-shrink .nav li a:hover, .navbar-default.navbar-shrink .nav li a:focus {
+  color: #fff;   
+}
+
+.navbar-default.navbar-shrink .navbar-nav>.active>a:hover, .navbar-default.navbar-shrink .navbar-nav>.active>a:focus {
+    color: #545e5e;
+    
+}
+
+
+
+
+a.button-join {
+    border:2px solid #e84e24;
+    margin-left:10px;
+    margin-top:5px;
+    padding:8px 38px 7px 38px !important;
+}
+
+@media (min-width:768px) {
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0
+    }
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0px;
+           /* background:#d7dede; */
+        background:none;
+        color:#fff;
+    }
+    
+    
+    
+    .navbar-default.navbar-shrink {
+        background:rgba(39,43,43,.80);
+        padding: 10px 0;
+    }
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+}
+
+header {
+    background-image: url(/web/20160610192340im_/http://foxtrothq.com/images/bg-hero.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+    border-top:13px solid #e84e24 ;
+}
+
+
+
+
+header .intro-text {
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+
+.col-centered {
+    float:none;
+    margin:0px auto !important;
+    display:block !important;
+}
+
+
+.container-hero {
+    position:relative;
+}
+
+img.airplane-shadow {
+    position:absolute;
+    right:30px;
+    top:282px;
+    width:474px;
+    height:359px;
+    
+}
+
+header .intro-text .intro1 {
+    font-family: "aileronbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    line-height: 22px;
+    letter-spacing:.05em;
+    margin-bottom: 25px;
+        color:#545e5e;
+    text-align:left;
+      /*      background:url(/web/20160610192340im_/http://foxtrothq.com/images/icon-airplane-intro.png) no-repeat right; */
+    }
+}
+
+
+header .intro-text .intro-heading {
+    font-family: "aileronbold",  Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 44px;
+    margin-bottom: 25px;
+        letter-spacing:.05em !important;
+}
+
+    
+      header .intro-text .intro-heading span {
+          color:#e84e24;
+          text-transform:uppercase;
+      }
+    
+    
+          header .intro-text .intro-heading span.trot {
+          font-family: "aileronregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          
+      }
+
+
+
+
+@media (min-width:768px) {
+    header .intro-text {
+        padding-top: 150px;
+        padding-bottom: 100px
+    }
+    header .intro-text .intro1 {
+        font-family: "aileronbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+        padding-right:40px;
+        /*    background:url(/web/20160610192340im_/http://foxtrothq.com/images/icon-airplane-intro.png) no-repeat right; */
+        letter-spacing:.05em !important;
+    }
+    header .intro-text .intro-heading {
+        font-family: "aileronbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 50px;
+              color:#545e5e;
+        letter-spacing:.05em !important;
+    }
+    
+      header .intro-text .intro-heading span {
+          color:#e84e24;
+          
+      }
+    
+    
+          header .intro-text .intro-heading span.trot {
+          font-family: "aileronregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          
+      }
+    
+    
+}
+
+
+
+
+section {
+    padding: 100px 0
+}
+
+section h2.section-heading {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 25px
+}
+
+
+
+@media (min-width:768px) {
+    section {
+        padding: 90px 0
+    }
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none
+}
+
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(254, 209, 54, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    text-transform: none;
+    margin: 0
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0
+}
+
+#portfolio * {
+    z-index: 2
+}
+
+@media (min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px
+    }
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: 40px;
+    margin-left: -1.5px
+}
+
+.timeline>li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table
+}
+
+.timeline>li:after {
+    clear: both
+}
+
+.timeline>li .timeline-panel {
+    width: 100%;
+    float: right;
+    padding: 0 20px 0 100px;
+    position: relative;
+    text-align: left
+}
+
+.timeline>li .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto
+}
+
+.timeline>li .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto
+}
+
+.timeline>li .timeline-image {
+    left: 0;
+    margin-left: 0;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 100;
+    background-color: #fed136;
+    color: #fff;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center
+}
+
+.timeline>li .timeline-image h4 {
+    font-size: 10px;
+    margin-top: 12px;
+    line-height: 14px
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 20px 0 100px
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none
+}
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0
+}
+
+@media (min-width:768px) {
+    .timeline:before {
+        left: 50%
+    }
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px
+    }
+    .timeline>li .timeline-panel {
+        width: 41%;
+        float: left;
+        padding: 0 20px 20px 30px;
+        text-align: right
+    }
+    .timeline>li .timeline-image {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        margin-left: -50px
+    }
+    .timeline>li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px
+    }
+}
+
+@media (min-width:992px) {
+    .timeline>li {
+        min-height: 150px
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px
+    }
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px
+    }
+    .timeline>li .timeline-image h4 {
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 26px
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px
+    }
+}
+
+@media (min-width:1200px) {
+    .timeline>li {
+        min-height: 170px
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px
+    }
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px
+    }
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px
+    }
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none
+}
+
+.team-member p {
+    margin-top: 0
+}
+
+aside.clients img {
+    margin: 50px auto
+}
+
+section#join {
+    background-image: url(/web/20160610192340im_/http://foxtrothq.com/images/bg-low-polygon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+section#contact .section-heading {
+    color: #fff
+}
+
+section#contact .form-group {
+    margin-bottom: 25px
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px
+}
+
+section#contact .form-group input.form-control {
+    height: auto
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none
+}
+
+section#contact::-webkit-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact:-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact::-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact:-ms-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+
+section#contact .text-danger {
+    color: #e74c3c
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+        background:#545e5e;
+}
+
+footer div.copyright {
+    line-height: 40px;
+    font-family: "latoregular", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+        color:#475050;
+    text-align:right;
+    padding-right:17px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none
+}
+
+ul.social-buttons {
+    margin-bottom: 0
+}
+
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0
+}
+
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #222;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052
+}
+
+.portfolio-modal .modal-backdrop {
+    opacity: 0;
+    display: none
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136
+}
+
+img::selection {
+    background: 0 0
+}
+
+img::-moz-selection {
+    background: 0 0
+}
+
+body {
+    webkit-tap-highlight-color: #fed136
+}
+
+
+a.arrow-down-wh {
+  background:url(/web/20160610192340im_/http://foxtrothq.com/images/arrow-down-wh.png) center no-repeat;
+    width:30px;
+    height:19px;
+  display:block; 
+    margin:30px auto;
+}
+
+a.arrow-down-orange {
+  background:url(/web/20160610192340im_/http://foxtrothq.com/images/arrow-down-orange.png) center no-repeat;
+    width:30px;
+    height:19px;
+  display:block; 
+    margin:30px auto;
+}
+
+#foxtrot {
+    background:url(/web/20160610192340im_/http://foxtrothq.com/images/bg-triangles1.png) no-repeat;
+    background-size:cover;
+    color:#fff;
+}
+
+/* #join1 {
+    background:url(/web/20160610192340im_/http://foxtrothq.com/images/bg-network-wh.jpg) no-repeat;
+    background-size:cover; 
+} */
+
+
+
+
+/* #foxtrot h2, #benefits h2, #intuitive h2 { */
+    #foxtrot h2, #intuitive h2, #join1 h2 {
+ color:#fff;   
+    
+}
+
+h2.heading-intuitive img {
+    margin-top:-9px;
+    
+}
+
+h2.heading-foxtrot img  {
+    display:inline-block;
+    margin-top:-16px;
+    padding-right:10px;
+}
+
+
+h2.heading-frontdesk img  {
+    display:inline-block;
+    margin-top:-16px;
+    padding-right:10px;
+}
+
+h2.heading-benefits span {
+    display:inline-block;
+    padding-left:10px;
+}
+
+h2.heading-benefits img {
+    display:inline-block;
+    margin-right:5px;
+    margin-left:-100px;
+    margin-top:-65px;
+}
+
+/*
+h2.heading-intuitive {
+ padding-left:30px;
+    background:url(/web/20160610192340im_/http://foxtrothq.com/images/icon-thumbs-up.png) right no-repeat;
+    
+} */
+
+
+#benefits {
+/*    background:url(/web/20160610192340im_/http://foxtrothq.com/images/bg-orange1.png) no-repeat; */
+    background-size:cover;
+ /*   color:#fff; */
+}
+
+#intuitive {
+    background:url(/web/20160610192340im_/http://foxtrothq.com/images/bg-orange1.png) no-repeat;
+    background-size:cover;
+    color:#fff;
+}
+
+#join1 {
+  background:url(/web/20160610192340im_/http://foxtrothq.com/images/bg-orange2.png) no-repeat;
+    background-size:cover;
+    color:#fff; 
+    margin-top:-15px;
+    margin-bottom:-55px;
+}
+
+.join-intro {
+    padding-bottom:30px;
+    
+}
+
+
+img.accent-basic {
+    margin:0px auto;
+    display:block;
+}
+
+
+h3.join-text, .join-text {
+    font-family:"latoregular", arial, sans-serif;
+    font-size:26px;
+    font-weight:normal;
+    color:#545e5e;
+    text-transform:none;
+    line-height:1.5;
+    
+}
+
+
+.join-text-details {
+    margin-top:45px !important;
+}
+
+
+.divider {
+
+height:4px;
+background:#ddd;  
+width:30%;
+margin:20px auto 5px auto;
+}
+
+.small-txt {
+        font-family:"latoregular", arial, sans-serif;
+    font-size:26px;
+    font-weight:normal;
+    color:#545e5e;
+    text-transform:none;
+    font-size:16px;
+}
+
+
+form#contactForm {
+    padding-top:25px;
+    width:100%;
+}
+
+
+
+form#contactForm input[type=text], form#contactForm input[type=email] {
+    border:2px solid #e84f25;
+    border-radius:0px;
+    width:100% !important;
+    padding:22px 50px 22px 15px !important;
+}
+
+form#contactForm label {
+     font-family:"latobold", arial, sans-serif;
+   color:#545e5e;
+    font-size:26px;
+    margin-top:15px;
+}
+
+form#contactForm label.first {
+    margin-top:0px;
+}
+
+
+
+@media (max-width:800px) {
+    header  {
+        padding-top: 90px;
+        padding-bottom: 100px;
+            font-size:38px;
+              color:#545e5e;
+    }
+    
+  header .intro-text .intro1 {
+    font-family: "aileronbold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    line-height: 1.25;
+    letter-spacing:.05em;
+    margin-bottom: 25px;
+        color:#545e5e;
+    text-align:left;
+      /*      background:url(/web/20160610192340im_/http://foxtrothq.com/images/icon-airplane-intro.png) no-repeat right; */
+    }
+
+
+
+header .intro-text .intro-heading {
+    font-family: "aileronbold",  Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+        letter-spacing:.05em !important;
+}
+
+    
+      header .intro-text .intro-heading span {
+          color:#e84e24;
+          text-transform:uppercase;
+      }
+    
+    
+          header .intro-text .intro-heading span.trot {
+          font-family: "aileronregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          
+      }
+
+
+    
+    
+    
+    
+   } 
+
+
+@media (max-width:999px) {
+    
+  .navbar-default .nav li a {
+    font-family: "aileronregular",  Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing: .02em;
+    color: #e84e24;
+} 
+    
+}
+
+@media (min-width:1000px) and (max-width:1260px) {
+    
+   .navbar-default .nav li a {
+    font-family: "aileronregular",  Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size:15px;
+    letter-spacing: .04em;
+    color: #e84e24;
+}  
+   }  
+    
+
+.error, .needsfilled {
+   background:#fdf7ce; 
+text-transform:uppercase;
+}
+
+
+
+::-webkit-input-placeholder {
+   font-size:16px;
+ color:#d4d4d4 !important;
+    font-family: "latobold",  Helvetica, Arial, sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size:16px;
+ color:#d4d4d4 !important;
+    font-family: "latobold",  Helvetica, Arial, sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size:16px;
+ color:#d4d4d4 !important;
+    font-family: "latobold",  Helvetica, Arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+    font-size:16px;
+ color:#d4d4d4 !important;
+    font-family: "latobold",  Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/*
+     FILE ARCHIVED ON 19:23:40 Jun 10, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:50:33 Jun 27, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 144.566 (3)
+  esindex: 0.009
+  captures_list: 226.789
+  CDXLines.iter: 15.501 (3)
+  PetaboxLoader3.datanode: 155.037 (4)
+  exclusion.robots: 0.14
+  exclusion.robots.policy: 0.129
+  RedisCDXSource: 33.38
+  PetaboxLoader3.resolve: 146.835
+  load_resource: 190.528
+*/
